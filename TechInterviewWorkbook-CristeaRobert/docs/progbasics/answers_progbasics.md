@@ -569,5 +569,5 @@ else:
 -   How do you download a file from internet using the terminal?
 
 
-      try wget `<link>`
+      try wget --options link
 ---
