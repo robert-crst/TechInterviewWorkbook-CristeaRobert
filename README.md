@@ -4,5 +4,5 @@
 
 ```
 path for answers :
-robert-crst/TechInterviewWorkbook-CristeaRobert/TechInterviewWorkbook-CristeaRobert/docs/progbasics/answers_progbasics.md
+../TechInterviewWorkbook-CristeaRobert/docs/progbasics/answers_progbasics.md
 ```
