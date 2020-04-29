@@ -11,7 +11,7 @@ print("Hello world")
 
 -   What is the purpose of a list (array in some programming languages) data structure? Name some methods of it!
 
-
+```
       In general, lists(array):
         - are most flexible ordered collection object type; can contain any sort of object
         - are mutable object (may be changed)
@@ -25,7 +25,7 @@ print("Hello world")
         - List.append(element)       add one element at the end of list
         - del List[element]          i prefer it instead of List.remove(element)
         - and many more...
-
+```
 -   What is the difference between a list/array and a set?
 
 
