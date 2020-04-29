@@ -27,13 +27,12 @@ print("Hello world")
         - and many more...
 ```
 -   What is the difference between a list/array and a set?
-
-
+```
       I said above what lists are. Now, a set is an unordered collection data type that is not iterable(elements
       dont have a specified order, they can change place any time), and has no duplicate elements.
       Now a major difference is that sets are slightly faster when it comes to check if one element it s
       present, and list are faster and more usefull when you want to iterate.
-
+```
 -   What is the purpose and methods of a dictionary/map data structure?
 
 
