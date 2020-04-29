@@ -35,8 +35,9 @@ print("Hello world")
 
 -   What is the purpose and methods of a dictionary/map data structure?
 ```
-      Python dictionaries are something completely different - they are not sequences at all, but are instead known as mappings.
-      Mappings are also collections of other objects, but they store objects by key instead of by relative position.
+      Python dictionaries are something completely different - they are not sequences at all, 
+      but are instead known as mappings. Mappings are also collections of other objects, but they store 
+      objects by key instead of by relative position.
       In fact, mappings don’t maintain any reliable left-to-right order; they simply map keys to associated values.
 
       Dict = {} // {key=element} // {(keys),(elements)}
@@ -98,8 +99,9 @@ def average(List = [0]):
 
 -   What do we call an *in-place* sort?
 ```
-      An in-place algorithm is an algorithm that does not need an extra space and produces an output in the same memory that 
-      contains the data by transforming the input ‘in-place’. However, a small constant extra space used for variables is allowed.
+      An in-place algorithm is an algorithm that does not need an extra space and produces an output 
+      in the same memory that contains the data by transforming the input ‘in-place’. However, 
+      a small constant extra space used for variables is allowed.
 ```
 
 -   Explain an algorithm which sorts a list!
@@ -127,7 +129,8 @@ def bubble_sort(List):
         - Local variables
         - Arguments passed into the method
         - Information about the caller's stack frame
-        - The return address—what the program should do after the function returns (i.e.: where it should "return to")
+        - The return address—what the program should do after the function returns 
+	(i.e.: where it should "return to")
 ```
 
 -   What is “Stack overflow”?
@@ -163,7 +166,8 @@ def bubble_sort(List):
       - print mydict.get("key")
       ... and many more
 
-      Basically you use dict when you need to associate values with keys, so you can look them up efficiently (by key) later on.
+      Basically you use dict when you need to associate values with keys, 
+      so you can look them up efficiently (by key) later on.
 ```
 
 -   What does it mean that an object is immutable in Python?
@@ -206,7 +210,8 @@ else:
 
 -   What is the "golden rule" of variable scoping in Python (context: LEGB)? What is the lifetime of variables?
 ```
-      When local as well as global variable is present, preference is given to the local variable. Order followed is L>E>G>B.
+      When local as well as global variable is present, preference is given to the local variable. 
+      Order followed is L>E>G>B.
       L = Local
       E = Enclosed (function is wrapped inside another function)
       G = Global
@@ -226,7 +231,8 @@ else:
 
 -   What is slice operator in Python and how to use?
 ```
-        A slice operator is this little thing that helps you when u need to select or change data for a non.simple.numerical type.
+        A slice operator is this little thing that helps you when u need to select or change 
+	data for a non.simple.numerical type.
 
         use like this
                   0      1      n-2    n-1
@@ -242,7 +248,8 @@ else:
 
 -   What is the purpose of the in and not in membership operators in Python?
 ```
-      in / not in - return a bool value(True or False) if one object is in or is not in a specified structure /another object
+      in / not in - return a bool value(True or False) 
+      if one object is in or is not in a specified structure /another object
 ```
 
 -   What does the + operator mean when used with strings in Python?
@@ -279,7 +286,8 @@ else:
 
 -   Does the order of the function definitions matter in Python? Why?
 ```
-      It doesn't matter in which order the functions are created. It only matters when the call to the function is done.
+      It doesn't matter in which order the functions are created. 
+      It only matters when the call to the function is done.
       Ps. call after.  
 ```
 
@@ -310,14 +318,16 @@ else:
 ```
         (Step Into) A instruction is about to be invoked, and you want to debug into the code of that method,
                     so the next step is to go into that method and continue debugging step-by-step.
-        (Step Over) A instruction is about to be invoked, but you're not interested in debugging this particular invocation,
-                    so you want the debugger to execute that method completely as one entire step.
+        (Step Over) A instruction is about to be invoked, but you're not interested in debugging this 
+		    particular invocation, so you want the debugger to execute that method completely 
+		    as one entire step.
         (Step Out)  Step out proceeds until the next "return" or equivalent.
 ```
 
 -   How can you start to debug a program from a certain line using the debugger?
 ```
-      Get into "break mode" - run to a specific location or function, for example, by setting a breakpoint and starting your app.
+      Get into "break mode" - run to a specific location or function, for example, 
+      by setting a breakpoint and starting your app.
 ```
 
 #### Version control
@@ -344,8 +354,8 @@ else:
 
 -   What are remote repositories in git?
 ```
-      A remote repositorie is Git's fancy way of saying "the place where code is stored."; where everyone who work on that
-      project have access.
+      A remote repositorie is Git's fancy way of saying "the place where code is stored."; 
+      where everyone who work on that project have access.
 ```
 
 -   Why does a merge conflict occur?
@@ -372,8 +382,8 @@ else:
 -   What’s the difference between git and GitHub?
 ```
       Git is a version control system that lets you manage and keep track of your source code history.
-      GitHub is a cloud-based hosting service that lets you manage Git repositories. If you have open-source projects that use Git,
-      then GitHub is designed to help you better manage them.
+      GitHub is a cloud-based hosting service that lets you manage Git repositories. 
+      If you have open-source projects that use Git, then GitHub is designed to help you better manage them.
 ```
 
 ## Software design
@@ -523,7 +533,8 @@ else:
 
       like apt-get.
 
-      A Linux repository is a storage location from which your system retrieves and installs OS updates and applications.
+      A Linux repository is a storage location from which your system retrieves and installs 
+      OS updates and applications.
 ```
 
 -   How do you navigate in the filesystem with the command line?
@@ -548,7 +559,8 @@ else:
 -   What does the following commands do: head, tail, more, less?
 ```
       head - is a command-line utility for outputting the first part of files given to it via standard input
-      more - is used to view the text files in the command prompt, displaying one screen at a time in case the file is large
+      more - is used to view the text files in the command prompt, displaying one screen 
+      	     at a time in case the file is large
       tail - is a command-line utility for outputting the last part of files given to it via standard input
       less - will open the file and display the file name at the lower left portion of the terminal
 ```
